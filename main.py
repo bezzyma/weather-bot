@@ -11,8 +11,8 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Токен Telegram бота и API-ключ OpenWeather из переменных окружения
-TOKEN = os.getenv("TOKEN")
-WEATHER_API_KEY = os.getenv("WEATHER_API_KEY")
+TOKEN = os.getenv("8077196697:AAGxW6gA4CD24IO2yO3ns5FK_an_PirC0YM")
+WEATHER_API_KEY = os.getenv("06043ae252f95e37235c5e9f56d19850")
 
 # Город: (название для OpenWeather, часовой пояс)
 cities = {
